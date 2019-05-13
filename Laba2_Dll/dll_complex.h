@@ -5,6 +5,7 @@ class BaseComplex
 public:
 	virtual void destroy() = 0;
 	virtual void OutD() = 0;
+	virtual void OutDN() = 0;
 	virtual void Sopr() = 0;
 	virtual void SetReIm(float a, float b) = 0;
 	virtual float Re() = 0;
